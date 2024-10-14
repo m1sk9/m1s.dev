@@ -40,11 +40,11 @@ const items: ItemizationProps[] = [
 
 export default function SoftwareList() {
   return (
-    <div class="mt-12 mx-auto w-full max-w-2xl">
-      <h2 class="text-2xl text-left">
+    <div className="mt-12 mx-auto w-full max-w-2xl px-4 sm:px-6 lg:px-8">
+      <h2 className="text-2xl text-left">
         ソフトウェア
       </h2>
-      <ul class="list-disc list-inside text-left mt-2">
+      <ul className="list-disc list-inside text-left mt-2 space-y-2">
         {items.map((i, k) => <Itemization key={k} items={[i]} />)}
       </ul>
     </div>
