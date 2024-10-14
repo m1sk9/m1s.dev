@@ -1,16 +1,27 @@
-# Fresh project
+# m1s.dev
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+🌙 My website.
 
-### Usage
+_Deployed [m1s.dev](https://m1s.dev) with [Deno Deploy](https://deno.com/deploy)._
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+## Development
 
-Then start the project:
+This project uses [Deno](https://deno.land) 🦕 and [fresh](https://fresh.deno.dev/) 🍋.
 
-```
+To start it locally, execute the following command:
+
+```sh
+# If not already installed, install Deno
+# --- m1s.dev use Deno 2 :)
+curl -fsSL https://deno.land/install.sh | sh
+
 deno task start
 ```
 
-This will watch the project directory and restart as necessary.
+## License
+
+m1s.dev is licensed under the [MIT License](LICENSE).
+
+<sub>
+  © 2024 m1sk9
+</sub>
